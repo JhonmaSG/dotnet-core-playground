@@ -71,7 +71,46 @@ Sistema CRUD en memoria para gestionar productos. Sin base de datos aún.
 
 ---
 
-*(Se irán actualizando conforme avance el curso)*
+# Ejemplo de commits para el proyecto 02
+
+## Crear el proyecto
+dotnet new console -n InventarioMemoria -o src/02-InventarioMemoria
+dotnet sln add src/02-InventarioMemoria/InventarioMemoria.csproj
+
+## Commit de estructura vacía (buena práctica: estructura antes que código)
+git add .
+git commit -m "chore(02-inventario): agregar proyecto a la solución"
+
+## Commit del trabajo terminado
+git add src/02-InventarioMemoria/
+git commit -m "feat(02-inventario): implementar CRUD con List<T> y LINQ"
+
+## Actualizar README
+git add README.md
+git commit -m "docs: marcar proyecto 02 como completo en README"
+
+git push origin main
+
+---
+
+## Resumen visual del flujo
+
+github.com/new
+     ↓
+git clone
+     ↓
+dotnet new sln
+     ↓
+dotnet new console -o src/01-...
+dotnet sln add ...
+     ↓
+git add . → git commit -m "chore: ..." → git push
+     ↓
+[desarrollar proyecto]
+     ↓
+git add . → git commit -m "feat(...): ..." → git push
+     ↓
+actualizar README → git commit -m "docs: ..." → git push
 
 ---
 
