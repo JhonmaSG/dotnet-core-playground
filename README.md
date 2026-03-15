@@ -1,2 +1,78 @@
-# dotnet-core-playground
-Mini proyectos de práctica con .NET 8 Core
+# 🧪 .NET Core Playground
+
+Repositorio de mini proyectos de práctica progresiva con **.NET 8 Core**, organizados de menor a mayor complejidad.
+
+Cada proyecto es independiente y enfocado en aprender conceptos específicos del ecosistema moderno de .NET: desde fundamentos del lenguaje hasta arquitectura limpia y producción real.
+
+# Tener en cuenta:
+
+Tipo		|	Cuándo usarlo
+feat		|	nuevo proyecto o funcionalidad
+fix			|	corrección de bug
+docs		|	cambios solo en README u otros docs
+refactor	|	mejorar código sin cambiar comportamiento
+chore		|	tareas de mantenimiento (actualizar deps, etc.)
+style		|	formato, espacios, sin cambio lógico
+
+---
+
+## 🗂 Estructura
+```
+src/
+├── 01-ConvertidorUnidades/     → Console App, top-level statements, LINQ básico
+├── 02-InventarioMemoria/       → Colecciones, Dictionary, pattern matching
+├── 03-LectorJsonCsv/           → System.Text.Json, File I/O, async/await
+├── 04-TodoMinimalApi/          → ASP.NET Core Minimal APIs, Swagger, DI
+├── 05-CrudEfCore/              → Entity Framework Core 8, SQLite, Migrations
+├── 06-AuthJwt/                 → JWT Bearer, ASP.NET Core Identity, Roles
+├── 07-RepositoryPattern/       → Repository, Unit of Work, AutoMapper
+├── 08-BackgroundJobs/          → IHostedService, BackgroundService, Channels
+├── 09-CleanArchitecture/       → Domain/App/Infra/Presentation, CQRS, MediatR
+└── 10-EcommerceProduccion/     → Docker, Redis, Serilog, Health checks
+```
+
+---
+
+## 🚀 Requisitos
+
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- IDE recomendado: [Visual Studio 2022](https://visualstudio.microsoft.com/) / [Rider](https://www.jetbrains.com/rider/) / [VS Code](https://code.visualstudio.com/) + C# Dev Kit
+
+---
+
+## ▶️ Cómo correr un proyecto
+```bash
+dotnet run --project src/01-ConvertidorUnidades/ConvertidorUnidades.csproj
+```
+
+O abre `DotnetCorePlayground.sln` en tu IDE y selecciona el proyecto de inicio.
+
+---
+
+## 📚 Proyectos
+
+### 01 · Convertidor de Unidades
+> **Temas:** Top-level statements · `var` · Records · `switch` expressions · `string interpolation`
+
+Console App que convierte entre unidades de longitud. Punto de entrada al C# moderno.
+
+**Estado:** ✅ Completo
+
+---
+
+### 02 · Inventario en Memoria
+> **Temas:** `List<T>` · `Dictionary<K,V>` · LINQ · Nullable types · Pattern matching
+
+Sistema CRUD en memoria para gestionar productos. Sin base de datos aún.
+
+**Estado:** 🔜 Próximamente
+
+---
+
+*(Se irán actualizando conforme avance el curso)*
+
+---
+
+## 🧠 Autor
+
+Proyecto de aprendizaje personal — [@JhonmaSG](https://github.com/JhonmaSG)

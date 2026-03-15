@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/01-ConvertidorUnidades/">
+    <Project Path="src/01-ConvertidorUnidades/ConvertidorUnidades.csproj" />
+  </Folder>
+</Solution>
