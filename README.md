@@ -35,6 +35,22 @@ src/
 
 ---
 
+## Estado de proyectos
+
+| Proyecto                  | Estado        |
+|---------------------------|---------------|
+| 01-ConvertidorUnidades    |       Completo        |
+| 02-InventarioMemoria      |               |
+| 03-LectorJsonCsv          |               |
+| 04-TodoMinimalApi         |               |
+| 05-CrudEfCore             |               |
+| 06-AuthJwt                |               |
+| 07-RepositoryPattern      |               |
+| 08-BackgroundJobs         |               |
+| 09-CleanArchitecture      |               |
+| 10-EcommerceProduccion    |               |
+
+
 ## 🚀 Requisitos
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
