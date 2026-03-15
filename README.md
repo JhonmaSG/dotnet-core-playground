@@ -6,13 +6,15 @@ Cada proyecto es independiente y enfocado en aprender conceptos específicos del
 
 # Tener en cuenta:
 
-Tipo		|	Cuándo usarlo
-feat		|	nuevo proyecto o funcionalidad
-fix			|	corrección de bug
-docs		|	cambios solo en README u otros docs
-refactor	|	mejorar código sin cambiar comportamiento
-chore		|	tareas de mantenimiento (actualizar deps, etc.)
-style		|	formato, espacios, sin cambio lógico
+| Tipo     | Cuándo usarlo                                      |
+|----------|----------------------------------------------------|
+| feat     | nuevo proyecto o funcionalidad                     |
+| fix      | corrección de bug                                  |
+| docs     | cambios solo en README u otros docs                |
+| refactor | mejorar código sin cambiar comportamiento          |
+| chore    | tareas de mantenimiento (actualizar deps, etc.)    |
+| style    | formato, espacios, sin cambio lógico               |
+
 
 ---
 
