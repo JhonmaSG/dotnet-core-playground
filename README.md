@@ -95,22 +95,18 @@ git push origin main
 
 ## Resumen visual del flujo
 
-github.com/new
-     ↓
-git clone
-     ↓
-dotnet new sln
-     ↓
-dotnet new console -o src/01-...
-dotnet sln add ...
-     ↓
-git add . → git commit -m "chore: ..." → git push
-     ↓
-[desarrollar proyecto]
-     ↓
-git add . → git commit -m "feat(...): ..." → git push
-     ↓
-actualizar README → git commit -m "docs: ..." → git push
+| Paso                        | Acción/Comando                                      |
+|-----------------------------|-----------------------------------------------------|
+| 1. Crear repositorio        | `github.com/new`                                    |
+| 2. Clonar repositorio       | `git clone`                                         |
+| 3. Crear solución           | `dotnet new sln`                                    |
+| 4. Crear proyecto           | `dotnet new console -o src/01-...`                  |
+| 5. Agregar proyecto a sln   | `dotnet sln add ...`                                |
+| 6. Commit inicial           | `git add .` → `git commit -m "chore: ..."` → `git push` |
+| 7. Desarrollo del proyecto  | `[desarrollar proyecto]`                            |
+| 8. Commit de funcionalidad  | `git add .` → `git commit -m "feat(...): ..."` → `git push` |
+| 9. Actualizar documentación | `git add README.md` → `git commit -m "docs: ..."` → `git push` |
+
 
 ---
 
